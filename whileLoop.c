@@ -5,7 +5,7 @@ int main()
     printf("Enter the value of a : ");
     scanf("%d",&a);
 
-    while (a<11)
+    while (a>11)
     {
         printf("%d\n",a);
         a++;
