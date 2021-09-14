@@ -1,0 +1,17 @@
+//sum of all natural numbers by DoWhileLoop
+#include <stdio.h>
+int main()	
+{	
+    int n,i=1,sum=0;
+    printf("Enter a number whose sum will be printed through all natural numbers: ");
+    scanf("%d",&n);
+     do
+       {
+        sum += i;
+        i++;
+    }  
+    while(i<=n);
+    printf("sum of all natural numbers till %d is  %d",n,sum);
+    
+    return 0;
+}
