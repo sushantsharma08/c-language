@@ -8,7 +8,7 @@ int main()
      printf("Enter - to SUBSTRACT\n");
      printf("Enter * to MULTIPLY\n");
      printf("Enter / to DIVIDE\n");
-     printf("Enter %% to REMINDER\n"); 
+     printf("Enter %% to REMINDER\n");
      printf("Enter the values of as ' a Operator b: ' ");
      scanf("%d%c%d",&a,&op,&b);
      switch (op)
@@ -28,7 +28,8 @@ int main()
      case '%' :
          printf("remainder of the two numbers is : %d",a%b);
          break;
-     
+
+        
      default:
           printf("invalid choice");
          break;
