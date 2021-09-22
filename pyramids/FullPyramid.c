@@ -1,3 +1,4 @@
+// Pyramid at 180 degree
 #include <stdio.h>
 int main()	
 {	
