@@ -5,7 +5,7 @@ int main()
 {	
     int number,n;
     srand(time(0));
-    number = rand();
+    number = rand()%100+1;
     printf(" the number is %d\n",number);
     printf("ENter a Number: ");
     scanf("%d",n);
