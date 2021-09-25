@@ -6,11 +6,11 @@ int main()
     int number,nguesses=1,guess;
     srand(time(0));
     number = rand()%100+1;
-    printf(" the number is %d\n",number);
+    //printf(" the number is %d\n",number);
     
     do
     {
-        printf("Enter a Number: ");
+        printf("Enter a Number btw 1-100 : ");
         scanf("%d",&guess);
         if (number>guess)
         {
