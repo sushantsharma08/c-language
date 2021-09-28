@@ -51,30 +51,30 @@ int main()
 int sum(int a , int b){
     int result;
     result=a+b;
-    printf("Sum of following numbers is : %d\n",result);
+    printf("\n\nSum of following numbers is : %d\n\n",result);
     return result;
 }
 int sub(int a , int b){
     int result;
     result=a-b;
-    printf("Subtraction btw following numbers is : %d\n",result);
+    printf("\n\nSubtraction btw following numbers is : %d\n\n",result);
     return result;
 }
-int multiplication(int a , int b){
+int multiply(int a , int b){
     int result;
-    result=a*b;
-    printf("multiplication of following numbers is : %d\n",result);
+    result=(a*b);
+    printf("\n\nmultiplication of following numbers is : %d\n\n",result);
     return result;
 }
 int divide(int a , int b){
     int result;
     result=a/b;
-    printf("Division btw following numbers is : %d\n",result);
+    printf("\n\nDivision btw following numbers is : %d\n\n",result);
     return result;
 }
 int remainder2(int a , int b){
     int result;
     result=a%b;
-    printf("remainder of following numbers is : %d\n",result);
+    printf("\n\nremainder of following numbers is : %d\n\n",result);
     return result;
 }
