@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int avg(int a,int b,int c);
+float avg(int a,int b,int c);
 int main()	
 {	
     int a,b,c;
@@ -10,9 +10,9 @@ int main()
     
     return 0;
 }
-int avg(int a,int b,int c){
-    int result;
-    result = (a+b+c)/3;
-       printf(" the avg value is : %d",result);
+float avg(int a,int b,int c){
+    float result;
+    result = (float)(a+b+c)/3;
+       printf(" the avg value is : %f",result);
       return result;
 }
