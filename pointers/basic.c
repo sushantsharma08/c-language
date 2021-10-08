@@ -10,7 +10,5 @@ int main()
     printf("value of j is %u \n",*(&j));
     printf("address of j is %u \n",&j);
     printf("address of j is %u \n",&j);
-    
-    
     return 0;
 }
