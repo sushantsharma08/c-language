@@ -9,9 +9,9 @@ void op(int *a, int *b){
 int main()	
 {	int x, y;
     // printf("values of x and y are %d and %d \n",x,y);
-    printf("Enter the value of x :  \n");
+    printf("Enter the value of x :  ");
     scanf("%d",&x);
-    printf("Enter the value of y :  \n");
+    printf("Enter the value of y :  ");
     scanf("%d",&y);
     op(&x, &y);
     return 0;

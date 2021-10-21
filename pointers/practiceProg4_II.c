@@ -1,7 +1,7 @@
 #include <stdio.h>
 void op(int a, int b, int *sum, float *avg){
     *sum=a+b;
-    *avg= (a+b)/2;
+    *avg=(float) (a+b)/2;
 }
 int main()	
 {	
