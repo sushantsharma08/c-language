@@ -54,6 +54,7 @@ int main()
     for ( i = 0; i < m1; i++)
     {
         printf("\n");
+        
         for(j=0 ; j < n2 ; j++)
         {
             printf(" %d ",array3[i][j]);
