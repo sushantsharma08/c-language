@@ -7,4 +7,4 @@ int main()
     scanf("%s",str);
     printf("name : %s \n ",str);
     return 0;
-}
+} 
