@@ -1,5 +1,5 @@
 #include <stdio.h>
-int func(int num, int b);
+void func(int num, int b);
 int main()	
 {	
     int num,opt;
@@ -13,16 +13,18 @@ int main()
         case 1 : printf("Binary equivalent is : ");
         func(num,2);
         break;
-        case 2 : printf("octal equivalent is : %d",func(num,8));
+        case 2 : printf("octal equivalent is : %d");
+        func(num,8);
         break;
-        case 3 : printf("Hexadecimal equivalent is : %d",func(num,16));
+        case 3 : printf("Hexadecimal equivalent is : %d");
+        func(num,16);
         break;
         default : printf("invalid choice");
     }
     
     return 0;
 }
-int func(int num, int b)
+void func(int num, int b)
 {
     char a[10];
     int i=0,j,rem;
