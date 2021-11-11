@@ -5,7 +5,7 @@ int main()
     char str1[10],str2[10];
     int compare;
     printf("Enter the first string : ");
-    scanf("%s",&str1);
+    scanf("%s",str1);
     printf("Enter the second string : ");
     scanf("%s",&str2);
     printf(" comparing between two strings...\n");
