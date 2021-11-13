@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+
 void BreakfastMenu();
 void Lunch();
 void FastFood();
@@ -54,28 +57,40 @@ int main()
     }
     return 0;
 }
-void BreakfastMenu(){
+
+
+void BreakfastMenu()
+{
     int poha=10,jalebi=30,Samosa=12;
     printf("1. poha    : %d/plate\n2. jalebi  : %d/plate\n3. Samosa  : %d ke 2\n",poha,jalebi,Samosa);
     ItemName();
     NumItems();
     Back();
 }
-void Lunch(){
+
+
+void Lunch()
+{
 int DalChawal=100, Roti=3, Sabzi=120;
     printf("1. Dal Chawal : %d/plate\n2. Roti       : %d/per\n3. Sabzi      : %d/per\n",DalChawal,Roti,Sabzi);
     ItemName();
     NumItems();
     Back();
 }
-void FastFood(){
+
+
+void FastFood()
+{
     int kachori=10,jalebi=30,Samosa=12,burger=25;
     printf("1. kachori  : %d/plate\n2. jalebi  : %d/plate\n3. Samosa  : %d ke 2\n4. burger  : %d/per",kachori,jalebi,Samosa,burger);
     ItemName();
     NumItems();
     Back();
 }
-void Back(){
+
+
+void Back()
+{
     char back;
      printf("Would you like to check the Menu again ? \n   y for YES n for No \n");
     fflush(stdin);
@@ -92,14 +107,20 @@ void Back(){
         Back();
     }
 }
-void NumItems(){
+
+
+void NumItems()
+{
     int n;
     printf("How much Do you want? \n");
     printf("Enter units : ");
     scanf("%d",&n);
     printf(" ");
-    }
-void ItemName(){
+}
+
+
+void ItemName()
+{
     char Item[30];
     printf("\nEnter the name of Item : ");
     scanf("%s", Item);

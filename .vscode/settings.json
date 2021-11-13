@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "BASIC2.C": "cpp",
-        "BUBBLESORT.C": "cpp"
+        "BUBBLESORT.C": "cpp",
+        "system_error": "c"
     }
 }
