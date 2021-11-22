@@ -20,7 +20,7 @@ int main()
     V2.X=9;
     V2.Y=8;
 
-    printf("dimensions of V1-x and V1-y are : (%d,%d) \n dimensions of V2-x And V2-y are: (%d,%d)",V1.X,V1.Y,V2.X,V2.Y);
+    printf("dimensions of V1-x and V1-y are : (%d,%d) \n dimensions of V2-x And V2-y are: (%d,%d)\n",V1.X,V1.Y,V2.X,V2.Y);
     
    sum = sumVector(V1,V2);
     printf("final vector is (%d,%d)",sum.X,sum.Y);
