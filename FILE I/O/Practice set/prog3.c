@@ -12,16 +12,5 @@ int main()
         fputc(c , ptr2);
         c = fgetc(ptr);
     }
-    // fflush(c);
-    // c = fgetc(ptr);
-    // while (c != EOF)
-    // {
-    //     fputc(c , ptr2);
-    //     c = fgetc(ptr);
-    // }
-    
-
-
-
     return 0;
 }
